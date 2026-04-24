@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRAAL Lab | Repositories</title>
+  <meta name="description" content="GRAAL Lab. repositories and resources for marine robotics research." />
+  <link href="https://fonts.bunny.net/css?family=fira-sans:400,500,700|roboto-slab:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="GRAAL Lab. home">
+        <img src="img/graal_logo_UniGe_square.png" alt="GRAAL Lab logo" class="brand-logo" />
+        <span class="brand-text">
+          <span>GRAAL Lab</span>
+          <small>University of Genoa</small>
+        </span>
+      </a>
+    
+      <div class="topbar-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="icon sun"></span>
+          <span class="icon moon"></span>
+        </button>
+    
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    
+      <nav class="nav" id="mobile-nav" aria-label="Primary navigation">
+        <a href="https://graal.dibris.unige.it" target="_blank" rel="noopener noreferrer">Lab Website</a>
+        <a href="https://github.com/GRAAL-Lab" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Marine Robotics</div>
+          <h1>
+          GRAAL Lab
+          </h1>
+          <p>
+            A curated entry point to our repositories, tools, and resources for robotics research, with a focus on control architectures, manipulation, and navigation in both marine and terrestrial environments.
+          </p>
+
+          <!-- <div class="hero-actions">
+            <a class="button primary" href="#repositories">Browse repositories</a>
+            <a class="button" href="https://graal.dibris.unige.it/" target="_blank" rel="noopener noreferrer">Visit GRAAL website</a>
+          </div> -->
+        </div>
+
+        <!-- <aside class="hero-card" aria-label="Marine robotics visual panel"> -->
+        <aside>
+          <div class="sonar" aria-hidden="true">
+            <div class="ring r4"></div>
+            <div class="ring r3"></div>
+            <div class="ring r2"></div>
+            <div class="ring r1"></div>
+            <div class="beam"></div>
+            <div class="core"></div>
+            <div class="ping"></div>
+          </div>
+
+          <!-- <div class="hero-stats">
+            <div class="stat">
+              <strong>01</strong>
+              <span>Repository listed</span>
+            </div>
+            <div class="stat">
+              <strong>01</strong>
+              <span>Official website</span>
+            </div>
+            <div class="stat">
+              <strong>∞</strong>
+              <span>Ready to expand</span>
+            </div>
+          </div> -->
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="repositories">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Repositories</h2>
+          </div>
+        </div>
+
+        <div class="repo-grid">
+
+          <article class="card">
+            <span class="card-tag">Core Library</span>
+            <h3>Robotics Toolbox (C++)</h3>
+            <p>
+              A collection of repositories implementing the Task Priority Inverse Kinematics algorithm. Open source code (released under MIT License).
+            </p>
+            <div class="card-footer">
+              <div class="pill-list" aria-label="Repository tags">
+                <span class="pill">Robotics</span>
+                <span class="pill">Kinematics</span>
+                <span class="pill">Control</span>
+              </div>
+              <a class="card-link" href="https://github.com/topics/graal-robotics-toolbox" target="_blank" rel="noopener noreferrer">
+                View collection <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+          
+          <article class="card">
+            <span class="card-tag">Simulation Framework</span>
+            <h3>IsaacSim_Underwater</h3>
+            <p>
+              A repository focused on underwater simulation workflows using Isaac Sim, supporting research and development in marine robotics environments.
+            </p>
+            <div class="card-footer">
+              <div class="pill-list" aria-label="Repository tags">
+                <span class="pill">Underwater</span>
+                <span class="pill">Isaac Sim</span>
+                <span class="pill">Simulation</span>
+              </div>
+              <a class="card-link" href="https://github.com/GRAAL-Lab/IsaacSim_Underwater" target="_blank" rel="noopener noreferrer">
+                View repository <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Add more repo cards here -->
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section final-info">
+  <div class="container final-info-inner">
+    <p class="final-info-text">
+      Learn more about the GRAAL Laboratory, its research, and ongoing projects on the official website.
+    </p>
+    <a class="final-info-link" href="https://graal.dibris.unige.it/" target="_blank" rel="noopener noreferrer">
+      Visit GRAAL Lab Website ↗
+    </a>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        © <span id="year"></span> GRAAL Laboratory.
+      </div>
+      <div>
+        Built for the <a class="muted-link" href="https://github.com/GRAAL-Lab/IsaacSim_Underwater" target="_blank" rel="noopener noreferrer">GRAAL Lab. GitHub organization</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
