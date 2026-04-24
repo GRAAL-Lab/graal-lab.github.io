@@ -1,3 +1,5 @@
+![Proof HTML](https://github.com/GRAAL-Lab/graal-lab.github.io/actions/workflows/proof-html.yml/badge.svg)
+
 # GRAAL Lab Website
 
 A modern, responsive GitHub Pages website for the GRAAL Lab at the University of Genoa. The site showcases repositories, tools, and resources for marine robotics research, with a focus on control architectures, manipulation, and navigation.
